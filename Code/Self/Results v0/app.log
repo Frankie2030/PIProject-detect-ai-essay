@@ -1,0 +1,346 @@
+2024-10-10 03:53:51,091 - INFO - loading projection weights from /kaggle/input/pdz-dath-ds/output_w2v.txt
+2024-10-10 03:56:04,507 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (400000, 300) matrix of type float32 from /kaggle/input/pdz-dath-ds/output_w2v.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2024-10-10T03:56:04.507824', 'gensim': '4.3.3', 'python': '3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]', 'platform': 'Linux-5.15.154+-x86_64-with-glibc2.35', 'event': 'load_word2vec_format'}
+2024-10-10 03:59:57,092 - INFO - Training a Logistic Regression model for 20 epochs...
+2024-10-10 03:59:57,098 - INFO - Epoch 1/20 - Shuffling and batching data
+2024-10-10 04:00:05,589 - INFO - Train Loss: 0.6922, Train Accuracy: 0.8505, 
+2024-10-10 04:00:05,591 - INFO - Train ROC AUC: 0.9114, Precision: 0.8547, 
+2024-10-10 04:00:05,592 - INFO - Recall: 0.7220, F1: 0.7828
+2024-10-10 04:00:05,594 - INFO - Epoch 2/20 - Shuffling and batching data
+2024-10-10 04:00:13,460 - INFO - Train Loss: 0.6923, Train Accuracy: 0.8500, 
+2024-10-10 04:00:13,461 - INFO - Train ROC AUC: 0.8953, Precision: 0.8421, 
+2024-10-10 04:00:13,462 - INFO - Recall: 0.7359, F1: 0.7854
+2024-10-10 04:00:13,464 - INFO - Epoch 3/20 - Shuffling and batching data
+2024-10-10 04:00:21,976 - INFO - Train Loss: 0.6924, Train Accuracy: 0.8324, 
+2024-10-10 04:00:21,978 - INFO - Train ROC AUC: 0.8899, Precision: 0.7664, 
+2024-10-10 04:00:21,979 - INFO - Recall: 0.7920, F1: 0.7790
+2024-10-10 04:00:21,982 - INFO - Epoch 4/20 - Shuffling and batching data
+2024-10-10 04:00:30,471 - INFO - Train Loss: 0.6927, Train Accuracy: 0.7560, 
+2024-10-10 04:00:30,473 - INFO - Train ROC AUC: 0.8453, Precision: 0.6489, 
+2024-10-10 04:00:30,474 - INFO - Recall: 0.7534, F1: 0.6973
+2024-10-10 04:00:30,476 - INFO - Epoch 5/20 - Shuffling and batching data
+2024-10-10 04:00:39,061 - INFO - Train Loss: 0.6925, Train Accuracy: 0.8199, 
+2024-10-10 04:00:39,062 - INFO - Train ROC AUC: 0.8733, Precision: 0.7420, 
+2024-10-10 04:00:39,063 - INFO - Recall: 0.7928, F1: 0.7666
+2024-10-10 04:00:39,066 - INFO - Epoch 6/20 - Shuffling and batching data
+2024-10-10 04:00:47,904 - INFO - Train Loss: 0.6923, Train Accuracy: 0.7794, 
+2024-10-10 04:00:47,905 - INFO - Train ROC AUC: 0.8614, Precision: 0.6821, 
+2024-10-10 04:00:47,907 - INFO - Recall: 0.7651, F1: 0.7212
+2024-10-10 04:00:47,909 - INFO - Epoch 7/20 - Shuffling and batching data
+2024-10-10 04:00:56,408 - INFO - Train Loss: 0.6922, Train Accuracy: 0.8593, 
+2024-10-10 04:00:56,410 - INFO - Train ROC AUC: 0.8968, Precision: 0.8450, 
+2024-10-10 04:00:56,412 - INFO - Recall: 0.7626, F1: 0.8017
+2024-10-10 04:00:56,420 - INFO - Epoch 8/20 - Shuffling and batching data
+2024-10-10 04:01:04,861 - INFO - Train Loss: 0.6921, Train Accuracy: 0.8613, 
+2024-10-10 04:01:04,863 - INFO - Train ROC AUC: 0.8892, Precision: 0.8477, 
+2024-10-10 04:01:04,864 - INFO - Recall: 0.7658, F1: 0.8047
+2024-10-10 04:01:04,866 - INFO - Epoch 9/20 - Shuffling and batching data
+2024-10-10 04:01:13,385 - INFO - Train Loss: 0.6923, Train Accuracy: 0.8677, 
+2024-10-10 04:01:13,387 - INFO - Train ROC AUC: 0.9149, Precision: 0.8364, 
+2024-10-10 04:01:13,389 - INFO - Recall: 0.8022, F1: 0.8189
+2024-10-10 04:01:13,393 - INFO - Epoch 10/20 - Shuffling and batching data
+2024-10-10 04:01:22,987 - INFO - Train Loss: 0.6926, Train Accuracy: 0.7781, 
+2024-10-10 04:01:22,988 - INFO - Train ROC AUC: 0.8396, Precision: 0.6915, 
+2024-10-10 04:01:22,994 - INFO - Recall: 0.7316, F1: 0.7110
+2024-10-10 04:01:23,000 - INFO - Epoch 11/20 - Shuffling and batching data
+2024-10-10 04:01:31,573 - INFO - Train Loss: 0.6922, Train Accuracy: 0.8438, 
+2024-10-10 04:01:31,574 - INFO - Train ROC AUC: 0.8874, Precision: 0.7773, 
+2024-10-10 04:01:31,575 - INFO - Recall: 0.8149, F1: 0.7956
+2024-10-10 04:01:31,577 - INFO - Epoch 12/20 - Shuffling and batching data
+2024-10-10 04:01:40,159 - INFO - Train Loss: 0.6924, Train Accuracy: 0.8294, 
+2024-10-10 04:01:40,160 - INFO - Train ROC AUC: 0.9010, Precision: 0.7557, 
+2024-10-10 04:01:40,162 - INFO - Recall: 0.8021, F1: 0.7782
+2024-10-10 04:01:40,164 - INFO - Epoch 13/20 - Shuffling and batching data
+2024-10-10 04:01:48,799 - INFO - Train Loss: 0.6924, Train Accuracy: 0.7679, 
+2024-10-10 04:01:48,801 - INFO - Train ROC AUC: 0.8433, Precision: 0.6701, 
+2024-10-10 04:01:48,802 - INFO - Recall: 0.7443, F1: 0.7052
+2024-10-10 04:01:48,804 - INFO - Epoch 14/20 - Shuffling and batching data
+2024-10-10 04:01:57,368 - INFO - Train Loss: 0.6923, Train Accuracy: 0.8632, 
+2024-10-10 04:01:57,369 - INFO - Train ROC AUC: 0.9105, Precision: 0.8550, 
+2024-10-10 04:01:57,371 - INFO - Recall: 0.7624, F1: 0.8061
+2024-10-10 04:01:57,373 - INFO - Epoch 15/20 - Shuffling and batching data
+2024-10-10 04:02:05,886 - INFO - Train Loss: 0.6923, Train Accuracy: 0.8282, 
+2024-10-10 04:02:05,889 - INFO - Train ROC AUC: 0.9051, Precision: 0.7524, 
+2024-10-10 04:02:05,890 - INFO - Recall: 0.8043, F1: 0.7775
+2024-10-10 04:02:05,894 - INFO - Epoch 16/20 - Shuffling and batching data
+2024-10-10 04:02:14,724 - INFO - Train Loss: 0.6924, Train Accuracy: 0.8543, 
+2024-10-10 04:02:14,725 - INFO - Train ROC AUC: 0.8974, Precision: 0.8105, 
+2024-10-10 04:02:14,726 - INFO - Recall: 0.7955, F1: 0.8029
+2024-10-10 04:02:14,728 - INFO - Epoch 17/20 - Shuffling and batching data
+2024-10-10 04:02:23,550 - INFO - Train Loss: 0.6925, Train Accuracy: 0.7908, 
+2024-10-10 04:02:23,552 - INFO - Train ROC AUC: 0.8681, Precision: 0.7441, 
+2024-10-10 04:02:23,553 - INFO - Recall: 0.6695, F1: 0.7049
+2024-10-10 04:02:23,555 - INFO - Epoch 18/20 - Shuffling and batching data
+2024-10-10 04:02:32,746 - INFO - Train Loss: 0.6922, Train Accuracy: 0.7844, 
+2024-10-10 04:02:32,748 - INFO - Train ROC AUC: 0.8492, Precision: 0.6932, 
+2024-10-10 04:02:32,749 - INFO - Recall: 0.7574, F1: 0.7239
+2024-10-10 04:02:32,751 - INFO - Epoch 19/20 - Shuffling and batching data
+2024-10-10 04:02:41,590 - INFO - Train Loss: 0.6921, Train Accuracy: 0.8469, 
+2024-10-10 04:02:41,592 - INFO - Train ROC AUC: 0.8875, Precision: 0.8668, 
+2024-10-10 04:02:41,593 - INFO - Recall: 0.6966, F1: 0.7725
+2024-10-10 04:02:41,596 - INFO - Epoch 20/20 - Shuffling and batching data
+2024-10-10 04:02:50,403 - INFO - Train Loss: 0.6925, Train Accuracy: 0.8030, 
+2024-10-10 04:02:50,404 - INFO - Train ROC AUC: 0.8512, Precision: 0.7788, 
+2024-10-10 04:02:50,406 - INFO - Recall: 0.6590, F1: 0.7139
+2024-10-10 04:02:51,582 - INFO - Testing Results:
+2024-10-10 04:02:51,584 - INFO - Test Loss: 0.6925, Test Accuracy: 0.8079, 
+2024-10-10 04:02:51,586 - INFO - Test ROC AUC: 0.8539, Precision: 0.7833, 
+2024-10-10 04:02:51,588 - INFO - Recall: 0.6673, F1: 0.7206
+2024-10-10 04:02:51,590 - INFO - Training an XGBoost model for 20 epochs...
+2024-10-10 04:02:51,596 - INFO - Epoch 1/20 - Shuffling and batching data
+2024-10-10 04:04:30,311 - INFO - Train Loss: 0.5912, Train Accuracy: 0.7030, 
+2024-10-10 04:04:30,312 - INFO - Train ROC AUC: 0.8115, Precision: 0.8563, 
+2024-10-10 04:04:30,313 - INFO - Recall: 0.2448, F1: 0.3808
+2024-10-10 04:04:30,315 - INFO - Epoch 2/20 - Shuffling and batching data
+2024-10-10 04:06:09,093 - INFO - Train Loss: 0.5474, Train Accuracy: 0.7318, 
+2024-10-10 04:06:09,094 - INFO - Train ROC AUC: 0.8226, Precision: 0.6165, 
+2024-10-10 04:06:09,096 - INFO - Recall: 0.7434, F1: 0.6740
+2024-10-10 04:06:09,099 - INFO - Epoch 3/20 - Shuffling and batching data
+2024-10-10 04:07:47,942 - INFO - Train Loss: 0.5932, Train Accuracy: 0.6948, 
+2024-10-10 04:07:47,944 - INFO - Train ROC AUC: 0.7658, Precision: 0.5787, 
+2024-10-10 04:07:47,945 - INFO - Recall: 0.6687, F1: 0.6204
+2024-10-10 04:07:47,947 - INFO - Epoch 4/20 - Shuffling and batching data
+2024-10-10 04:09:27,408 - INFO - Train Loss: 0.5736, Train Accuracy: 0.7052, 
+2024-10-10 04:09:27,410 - INFO - Train ROC AUC: 0.7635, Precision: 0.6263, 
+2024-10-10 04:09:27,412 - INFO - Recall: 0.5202, F1: 0.5684
+2024-10-10 04:09:27,414 - INFO - Epoch 5/20 - Shuffling and batching data
+2024-10-10 04:11:06,207 - INFO - Train Loss: 0.5999, Train Accuracy: 0.6835, 
+2024-10-10 04:11:06,209 - INFO - Train ROC AUC: 0.7340, Precision: 0.9007, 
+2024-10-10 04:11:06,210 - INFO - Recall: 0.1703, F1: 0.2865
+2024-10-10 04:11:06,212 - INFO - Epoch 6/20 - Shuffling and batching data
+2024-10-10 04:12:44,888 - INFO - Train Loss: 0.7047, Train Accuracy: 0.6638, 
+2024-10-10 04:12:44,889 - INFO - Train ROC AUC: 0.7081, Precision: 0.5360, 
+2024-10-10 04:12:44,894 - INFO - Recall: 0.7347, F1: 0.6198
+2024-10-10 04:12:44,896 - INFO - Epoch 7/20 - Shuffling and batching data
+2024-10-10 04:14:23,302 - INFO - Train Loss: 0.5926, Train Accuracy: 0.6695, 
+2024-10-10 04:14:23,304 - INFO - Train ROC AUC: 0.7297, Precision: 0.5824, 
+2024-10-10 04:14:23,305 - INFO - Recall: 0.4024, F1: 0.4760
+2024-10-10 04:14:23,310 - INFO - Epoch 8/20 - Shuffling and batching data
+2024-10-10 04:16:01,989 - INFO - Train Loss: 0.5562, Train Accuracy: 0.7236, 
+2024-10-10 04:16:01,990 - INFO - Train ROC AUC: 0.8215, Precision: 0.8728, 
+2024-10-10 04:16:01,992 - INFO - Recall: 0.3032, F1: 0.4501
+2024-10-10 04:16:01,994 - INFO - Epoch 9/20 - Shuffling and batching data
+2024-10-10 04:17:39,709 - INFO - Train Loss: 0.5495, Train Accuracy: 0.7315, 
+2024-10-10 04:17:39,711 - INFO - Train ROC AUC: 0.7945, Precision: 0.7832, 
+2024-10-10 04:17:39,713 - INFO - Recall: 0.3877, F1: 0.5186
+2024-10-10 04:17:39,715 - INFO - Epoch 10/20 - Shuffling and batching data
+2024-10-10 04:19:17,423 - INFO - Train Loss: 0.5141, Train Accuracy: 0.8195, 
+2024-10-10 04:19:17,425 - INFO - Train ROC AUC: 0.8516, Precision: 0.8169, 
+2024-10-10 04:19:17,426 - INFO - Recall: 0.6654, F1: 0.7334
+2024-10-10 04:19:17,428 - INFO - Epoch 11/20 - Shuffling and batching data
+2024-10-10 04:20:55,155 - INFO - Train Loss: 0.5408, Train Accuracy: 0.7466, 
+2024-10-10 04:20:55,157 - INFO - Train ROC AUC: 0.8309, Precision: 0.7801, 
+2024-10-10 04:20:55,159 - INFO - Recall: 0.4466, F1: 0.5681
+2024-10-10 04:20:55,161 - INFO - Epoch 12/20 - Shuffling and batching data
+2024-10-10 04:22:33,893 - INFO - Train Loss: 0.5040, Train Accuracy: 0.7692, 
+2024-10-10 04:22:33,895 - INFO - Train ROC AUC: 0.8689, Precision: 0.9451, 
+2024-10-10 04:22:33,896 - INFO - Recall: 0.4047, F1: 0.5667
+2024-10-10 04:22:33,899 - INFO - Epoch 13/20 - Shuffling and batching data
+2024-10-10 04:24:12,040 - INFO - Train Loss: 0.5514, Train Accuracy: 0.7355, 
+2024-10-10 04:24:12,041 - INFO - Train ROC AUC: 0.8144, Precision: 0.6529, 
+2024-10-10 04:24:12,042 - INFO - Recall: 0.6211, F1: 0.6366
+2024-10-10 04:24:12,045 - INFO - Epoch 14/20 - Shuffling and batching data
+2024-10-10 04:25:49,411 - INFO - Train Loss: 0.5208, Train Accuracy: 0.7932, 
+2024-10-10 04:25:49,412 - INFO - Train ROC AUC: 0.8397, Precision: 0.8809, 
+2024-10-10 04:25:49,413 - INFO - Recall: 0.5151, F1: 0.6501
+2024-10-10 04:25:49,415 - INFO - Epoch 15/20 - Shuffling and batching data
+2024-10-10 04:27:27,636 - INFO - Train Loss: 0.5822, Train Accuracy: 0.7341, 
+2024-10-10 04:27:27,638 - INFO - Train ROC AUC: 0.7676, Precision: 0.7828, 
+2024-10-10 04:27:27,638 - INFO - Recall: 0.3976, F1: 0.5274
+2024-10-10 04:27:27,641 - INFO - Epoch 16/20 - Shuffling and batching data
+2024-10-10 04:29:06,473 - INFO - Train Loss: 0.5620, Train Accuracy: 0.7494, 
+2024-10-10 04:29:06,474 - INFO - Train ROC AUC: 0.8159, Precision: 0.6391, 
+2024-10-10 04:29:06,475 - INFO - Recall: 0.7543, F1: 0.6919
+2024-10-10 04:29:06,477 - INFO - Epoch 17/20 - Shuffling and batching data
+2024-10-10 04:30:44,637 - INFO - Train Loss: 0.5968, Train Accuracy: 0.6815, 
+2024-10-10 04:30:44,638 - INFO - Train ROC AUC: 0.7477, Precision: 0.8123, 
+2024-10-10 04:30:44,640 - INFO - Recall: 0.1902, F1: 0.3082
+2024-10-10 04:30:44,642 - INFO - Epoch 18/20 - Shuffling and batching data
+2024-10-10 04:32:22,243 - INFO - Train Loss: 0.5392, Train Accuracy: 0.7503, 
+2024-10-10 04:32:22,245 - INFO - Train ROC AUC: 0.8249, Precision: 0.8866, 
+2024-10-10 04:32:22,246 - INFO - Recall: 0.3792, F1: 0.5312
+2024-10-10 04:32:22,249 - INFO - Epoch 19/20 - Shuffling and batching data
+2024-10-10 04:33:59,492 - INFO - Train Loss: 0.5763, Train Accuracy: 0.7166, 
+2024-10-10 04:33:59,493 - INFO - Train ROC AUC: 0.7774, Precision: 0.6020, 
+2024-10-10 04:33:59,494 - INFO - Recall: 0.7088, F1: 0.6511
+2024-10-10 04:33:59,496 - INFO - Epoch 20/20 - Shuffling and batching data
+2024-10-10 04:35:36,404 - INFO - Train Loss: 0.5456, Train Accuracy: 0.7080, 
+2024-10-10 04:35:36,407 - INFO - Train ROC AUC: 0.8153, Precision: 0.7332, 
+2024-10-10 04:35:36,413 - INFO - Recall: 0.3417, F1: 0.4661
+2024-10-10 04:35:37,678 - INFO - Testing Results:
+2024-10-10 04:35:37,680 - INFO - Test Loss: 0.5423, Test Accuracy: 0.7132, 
+2024-10-10 04:35:37,681 - INFO - Test ROC AUC: 0.8191, Precision: 0.7527, 
+2024-10-10 04:35:37,683 - INFO - Recall: 0.3393, F1: 0.4678
+2024-10-10 04:35:37,684 - INFO - Training a Random Forest model for 20 epochs...
+2024-10-10 04:35:37,687 - INFO - Epoch 1/20 - Shuffling and batching data
+2024-10-10 04:36:51,334 - INFO - Train Loss: 0.4946, Train Accuracy: 0.7884, 
+2024-10-10 04:36:51,335 - INFO - Train ROC AUC: 0.8532, Precision: 0.7967, 
+2024-10-10 04:36:51,336 - INFO - Recall: 0.5811, F1: 0.6720
+2024-10-10 04:36:51,339 - INFO - Epoch 2/20 - Shuffling and batching data
+2024-10-10 04:38:04,885 - INFO - Train Loss: 0.4901, Train Accuracy: 0.8409, 
+2024-10-10 04:38:04,886 - INFO - Train ROC AUC: 0.8877, Precision: 0.8009, 
+2024-10-10 04:38:04,887 - INFO - Recall: 0.7633, F1: 0.7817
+2024-10-10 04:38:04,889 - INFO - Epoch 3/20 - Shuffling and batching data
+2024-10-10 04:39:19,651 - INFO - Train Loss: 0.4793, Train Accuracy: 0.8226, 
+2024-10-10 04:39:19,652 - INFO - Train ROC AUC: 0.8906, Precision: 0.8759, 
+2024-10-10 04:39:19,653 - INFO - Recall: 0.6112, F1: 0.7200
+2024-10-10 04:39:19,655 - INFO - Epoch 4/20 - Shuffling and batching data
+2024-10-10 04:40:34,527 - INFO - Train Loss: 0.4914, Train Accuracy: 0.7968, 
+2024-10-10 04:40:34,528 - INFO - Train ROC AUC: 0.8561, Precision: 0.7403, 
+2024-10-10 04:40:34,530 - INFO - Recall: 0.7013, F1: 0.7203
+2024-10-10 04:40:34,533 - INFO - Epoch 5/20 - Shuffling and batching data
+2024-10-10 04:41:49,543 - INFO - Train Loss: 0.5044, Train Accuracy: 0.7890, 
+2024-10-10 04:41:49,544 - INFO - Train ROC AUC: 0.8461, Precision: 0.7428, 
+2024-10-10 04:41:49,546 - INFO - Recall: 0.6645, F1: 0.7015
+2024-10-10 04:41:49,548 - INFO - Epoch 6/20 - Shuffling and batching data
+2024-10-10 04:43:03,104 - INFO - Train Loss: 0.5124, Train Accuracy: 0.7436, 
+2024-10-10 04:43:03,106 - INFO - Train ROC AUC: 0.8993, Precision: 0.9752, 
+2024-10-10 04:43:03,107 - INFO - Recall: 0.3210, F1: 0.4830
+2024-10-10 04:43:03,110 - INFO - Epoch 7/20 - Shuffling and batching data
+2024-10-10 04:44:17,583 - INFO - Train Loss: 0.6825, Train Accuracy: 0.7826, 
+2024-10-10 04:44:17,584 - INFO - Train ROC AUC: 0.8472, Precision: 0.8508, 
+2024-10-10 04:44:17,585 - INFO - Recall: 0.5058, F1: 0.6345
+2024-10-10 04:44:17,587 - INFO - Epoch 8/20 - Shuffling and batching data
+2024-10-10 04:45:32,948 - INFO - Train Loss: 0.4419, Train Accuracy: 0.8292, 
+2024-10-10 04:45:32,950 - INFO - Train ROC AUC: 0.8937, Precision: 0.8907, 
+2024-10-10 04:45:32,951 - INFO - Recall: 0.6178, F1: 0.7296
+2024-10-10 04:45:32,953 - INFO - Epoch 9/20 - Shuffling and batching data
+2024-10-10 04:46:48,572 - INFO - Train Loss: 0.4947, Train Accuracy: 0.8302, 
+2024-10-10 04:46:48,573 - INFO - Train ROC AUC: 0.8939, Precision: 0.9112, 
+2024-10-10 04:46:48,574 - INFO - Recall: 0.6037, F1: 0.7262
+2024-10-10 04:46:48,576 - INFO - Epoch 10/20 - Shuffling and batching data
+2024-10-10 04:48:05,234 - INFO - Train Loss: 0.4702, Train Accuracy: 0.8126, 
+2024-10-10 04:48:05,235 - INFO - Train ROC AUC: 0.8777, Precision: 0.8566, 
+2024-10-10 04:48:05,236 - INFO - Recall: 0.5978, F1: 0.7041
+2024-10-10 04:48:05,238 - INFO - Epoch 11/20 - Shuffling and batching data
+2024-10-10 04:49:21,459 - INFO - Train Loss: 0.5505, Train Accuracy: 0.7053, 
+2024-10-10 04:49:21,460 - INFO - Train ROC AUC: 0.8567, Precision: 0.5675, 
+2024-10-10 04:49:21,461 - INFO - Recall: 0.8834, F1: 0.6910
+2024-10-10 04:49:21,464 - INFO - Epoch 12/20 - Shuffling and batching data
+2024-10-10 04:50:37,448 - INFO - Train Loss: 0.4634, Train Accuracy: 0.8055, 
+2024-10-10 04:50:37,449 - INFO - Train ROC AUC: 0.9099, Precision: 0.9451, 
+2024-10-10 04:50:37,451 - INFO - Recall: 0.5082, F1: 0.6610
+2024-10-10 04:50:37,454 - INFO - Epoch 13/20 - Shuffling and batching data
+2024-10-10 04:51:53,514 - INFO - Train Loss: 0.5854, Train Accuracy: 0.7665, 
+2024-10-10 04:51:53,515 - INFO - Train ROC AUC: 0.8629, Precision: 0.9656, 
+2024-10-10 04:51:53,516 - INFO - Recall: 0.3879, F1: 0.5535
+2024-10-10 04:51:53,518 - INFO - Epoch 14/20 - Shuffling and batching data
+2024-10-10 04:53:08,859 - INFO - Train Loss: 0.4675, Train Accuracy: 0.7976, 
+2024-10-10 04:53:08,860 - INFO - Train ROC AUC: 0.8782, Precision: 0.8412, 
+2024-10-10 04:53:08,861 - INFO - Recall: 0.5637, F1: 0.6751
+2024-10-10 04:53:08,864 - INFO - Epoch 15/20 - Shuffling and batching data
+2024-10-10 04:54:24,352 - INFO - Train Loss: 0.5389, Train Accuracy: 0.7897, 
+2024-10-10 04:54:24,354 - INFO - Train ROC AUC: 0.8613, Precision: 0.8490, 
+2024-10-10 04:54:24,355 - INFO - Recall: 0.5307, F1: 0.6532
+2024-10-10 04:54:24,357 - INFO - Epoch 16/20 - Shuffling and batching data
+2024-10-10 04:55:39,438 - INFO - Train Loss: 0.5096, Train Accuracy: 0.7732, 
+2024-10-10 04:55:39,439 - INFO - Train ROC AUC: 0.8752, Precision: 0.9396, 
+2024-10-10 04:55:39,440 - INFO - Recall: 0.4191, F1: 0.5796
+2024-10-10 04:55:39,442 - INFO - Epoch 17/20 - Shuffling and batching data
+2024-10-10 04:56:55,246 - INFO - Train Loss: 0.4411, Train Accuracy: 0.8387, 
+2024-10-10 04:56:55,247 - INFO - Train ROC AUC: 0.8904, Precision: 0.7760, 
+2024-10-10 04:56:55,248 - INFO - Recall: 0.7981, F1: 0.7869
+2024-10-10 04:56:55,250 - INFO - Epoch 18/20 - Shuffling and batching data
+2024-10-10 04:58:10,807 - INFO - Train Loss: 0.5487, Train Accuracy: 0.7736, 
+2024-10-10 04:58:10,808 - INFO - Train ROC AUC: 0.8348, Precision: 0.8581, 
+2024-10-10 04:58:10,809 - INFO - Recall: 0.4709, F1: 0.6081
+2024-10-10 04:58:10,812 - INFO - Epoch 19/20 - Shuffling and batching data
+2024-10-10 04:59:26,690 - INFO - Train Loss: 0.4882, Train Accuracy: 0.7780, 
+2024-10-10 04:59:26,691 - INFO - Train ROC AUC: 0.8645, Precision: 0.8140, 
+2024-10-10 04:59:26,692 - INFO - Recall: 0.5247, F1: 0.6381
+2024-10-10 04:59:26,694 - INFO - Epoch 20/20 - Shuffling and batching data
+2024-10-10 05:00:42,613 - INFO - Train Loss: 0.4786, Train Accuracy: 0.7928, 
+2024-10-10 05:00:42,614 - INFO - Train ROC AUC: 0.8839, Precision: 0.9138, 
+2024-10-10 05:00:42,615 - INFO - Recall: 0.4910, F1: 0.6387
+2024-10-10 05:00:43,836 - INFO - Testing Results:
+2024-10-10 05:00:43,838 - INFO - Test Loss: 0.4816, Test Accuracy: 0.7933, 
+2024-10-10 05:00:43,838 - INFO - Test ROC AUC: 0.8823, Precision: 0.9069, 
+2024-10-10 05:00:43,840 - INFO - Recall: 0.4941, F1: 0.6397
+2024-10-10 05:00:43,841 - INFO - Training a LinearSVC model for 20 epochs...
+2024-10-10 05:00:43,845 - INFO - Epoch 1/20 - Shuffling and batching data
+2024-10-10 05:00:48,354 - INFO - Train Loss: 3.1046, Train Accuracy: 0.7054, 
+2024-10-10 05:00:48,355 - INFO - Train ROC AUC: 0.9191, Precision: 0.9962, 
+2024-10-10 05:00:48,356 - INFO - Recall: 0.2112, F1: 0.3485
+2024-10-10 05:00:48,358 - INFO - Epoch 2/20 - Shuffling and batching data
+2024-10-10 05:00:52,839 - INFO - Train Loss: 3.4788, Train Accuracy: 0.7146, 
+2024-10-10 05:00:52,840 - INFO - Train ROC AUC: 0.9109, Precision: 0.9972, 
+2024-10-10 05:00:52,841 - INFO - Recall: 0.2355, F1: 0.3811
+2024-10-10 05:00:52,843 - INFO - Epoch 3/20 - Shuffling and batching data
+2024-10-10 05:00:57,358 - INFO - Train Loss: 3.1262, Train Accuracy: 0.7425, 
+2024-10-10 05:00:57,359 - INFO - Train ROC AUC: 0.9052, Precision: 0.9869, 
+2024-10-10 05:00:57,360 - INFO - Recall: 0.3139, F1: 0.4763
+2024-10-10 05:00:57,362 - INFO - Epoch 4/20 - Shuffling and batching data
+2024-10-10 05:01:01,900 - INFO - Train Loss: 4.2278, Train Accuracy: 0.6780, 
+2024-10-10 05:01:01,902 - INFO - Train ROC AUC: 0.9001, Precision: 0.9933, 
+2024-10-10 05:01:01,903 - INFO - Recall: 0.1379, F1: 0.2421
+2024-10-10 05:01:01,905 - INFO - Epoch 5/20 - Shuffling and batching data
+2024-10-10 05:01:06,399 - INFO - Train Loss: 3.8242, Train Accuracy: 0.7024, 
+2024-10-10 05:01:06,401 - INFO - Train ROC AUC: 0.9090, Precision: 0.9958, 
+2024-10-10 05:01:06,411 - INFO - Recall: 0.2030, F1: 0.3372
+2024-10-10 05:01:06,413 - INFO - Epoch 6/20 - Shuffling and batching data
+2024-10-10 05:01:10,991 - INFO - Train Loss: 4.0748, Train Accuracy: 0.6775, 
+2024-10-10 05:01:10,993 - INFO - Train ROC AUC: 0.8978, Precision: 0.9976, 
+2024-10-10 05:01:10,994 - INFO - Recall: 0.1359, F1: 0.2392
+2024-10-10 05:01:10,995 - INFO - Epoch 7/20 - Shuffling and batching data
+2024-10-10 05:01:15,478 - INFO - Train Loss: 2.7501, Train Accuracy: 0.7234, 
+2024-10-10 05:01:15,480 - INFO - Train ROC AUC: 0.9179, Precision: 0.9985, 
+2024-10-10 05:01:15,481 - INFO - Recall: 0.2589, F1: 0.4112
+2024-10-10 05:01:15,483 - INFO - Epoch 8/20 - Shuffling and batching data
+2024-10-10 05:01:20,016 - INFO - Train Loss: 3.1452, Train Accuracy: 0.7028, 
+2024-10-10 05:01:20,017 - INFO - Train ROC AUC: 0.9178, Precision: 0.9990, 
+2024-10-10 05:01:20,018 - INFO - Recall: 0.2034, F1: 0.3380
+2024-10-10 05:01:20,020 - INFO - Epoch 9/20 - Shuffling and batching data
+2024-10-10 05:01:24,509 - INFO - Train Loss: 3.3283, Train Accuracy: 0.7195, 
+2024-10-10 05:01:24,510 - INFO - Train ROC AUC: 0.9022, Precision: 0.9905, 
+2024-10-10 05:01:24,511 - INFO - Recall: 0.2505, F1: 0.3998
+2024-10-10 05:01:24,514 - INFO - Epoch 10/20 - Shuffling and batching data
+2024-10-10 05:01:29,029 - INFO - Train Loss: 4.2109, Train Accuracy: 0.6441, 
+2024-10-10 05:01:29,031 - INFO - Train ROC AUC: 0.8647, Precision: 0.9929, 
+2024-10-10 05:01:29,032 - INFO - Recall: 0.0464, F1: 0.0887
+2024-10-10 05:01:29,034 - INFO - Epoch 11/20 - Shuffling and batching data
+2024-10-10 05:01:33,520 - INFO - Train Loss: 2.8261, Train Accuracy: 0.6809, 
+2024-10-10 05:01:33,521 - INFO - Train ROC AUC: 0.9029, Precision: 0.9973, 
+2024-10-10 05:01:33,523 - INFO - Recall: 0.1451, F1: 0.2534
+2024-10-10 05:01:33,525 - INFO - Epoch 12/20 - Shuffling and batching data
+2024-10-10 05:01:38,005 - INFO - Train Loss: 3.2715, Train Accuracy: 0.6750, 
+2024-10-10 05:01:38,006 - INFO - Train ROC AUC: 0.9282, Precision: 1.0000, 
+2024-10-10 05:01:38,008 - INFO - Recall: 0.1289, F1: 0.2283
+2024-10-10 05:01:38,010 - INFO - Epoch 13/20 - Shuffling and batching data
+2024-10-10 05:01:42,524 - INFO - Train Loss: 2.9461, Train Accuracy: 0.6996, 
+2024-10-10 05:01:42,526 - INFO - Train ROC AUC: 0.9164, Precision: 0.9983, 
+2024-10-10 05:01:42,527 - INFO - Recall: 0.1952, F1: 0.3265
+2024-10-10 05:01:42,529 - INFO - Epoch 14/20 - Shuffling and batching data
+2024-10-10 05:01:46,991 - INFO - Train Loss: 3.4867, Train Accuracy: 0.7287, 
+2024-10-10 05:01:46,993 - INFO - Train ROC AUC: 0.8848, Precision: 0.9926, 
+2024-10-10 05:01:46,994 - INFO - Recall: 0.2748, F1: 0.4304
+2024-10-10 05:01:46,996 - INFO - Epoch 15/20 - Shuffling and batching data
+2024-10-10 05:01:51,496 - INFO - Train Loss: 2.8848, Train Accuracy: 0.7221, 
+2024-10-10 05:01:51,497 - INFO - Train ROC AUC: 0.8885, Precision: 0.9977, 
+2024-10-10 05:01:51,498 - INFO - Recall: 0.2556, F1: 0.4070
+2024-10-10 05:01:51,501 - INFO - Epoch 16/20 - Shuffling and batching data
+2024-10-10 05:01:56,009 - INFO - Train Loss: 3.8944, Train Accuracy: 0.7050, 
+2024-10-10 05:01:56,010 - INFO - Train ROC AUC: 0.8970, Precision: 0.9956, 
+2024-10-10 05:01:56,011 - INFO - Recall: 0.2100, F1: 0.3469
+2024-10-10 05:01:56,013 - INFO - Epoch 17/20 - Shuffling and batching data
+2024-10-10 05:02:00,505 - INFO - Train Loss: 2.5839, Train Accuracy: 0.7400, 
+2024-10-10 05:02:00,506 - INFO - Train ROC AUC: 0.9026, Precision: 0.9924, 
+2024-10-10 05:02:00,507 - INFO - Recall: 0.3054, F1: 0.4670
+2024-10-10 05:02:00,509 - INFO - Epoch 18/20 - Shuffling and batching data
+2024-10-10 05:02:04,954 - INFO - Train Loss: 2.8414, Train Accuracy: 0.7303, 
+2024-10-10 05:02:04,955 - INFO - Train ROC AUC: 0.9006, Precision: 0.9976, 
+2024-10-10 05:02:04,956 - INFO - Recall: 0.2776, F1: 0.4344
+2024-10-10 05:02:04,959 - INFO - Epoch 19/20 - Shuffling and batching data
+2024-10-10 05:02:09,482 - INFO - Train Loss: 2.2798, Train Accuracy: 0.7314, 
+2024-10-10 05:02:09,483 - INFO - Train ROC AUC: 0.8977, Precision: 0.9797, 
+2024-10-10 05:02:09,484 - INFO - Recall: 0.2858, F1: 0.4426
+2024-10-10 05:02:09,486 - INFO - Epoch 20/20 - Shuffling and batching data
+2024-10-10 05:02:13,980 - INFO - Train Loss: 4.0459, Train Accuracy: 0.6653, 
+2024-10-10 05:02:13,981 - INFO - Train ROC AUC: 0.9274, Precision: 0.9987, 
+2024-10-10 05:02:13,981 - INFO - Recall: 0.1030, F1: 0.1867
+2024-10-10 05:02:15,263 - INFO - Testing Results:
+2024-10-10 05:02:15,265 - INFO - Test Loss: 3.8464, Test Accuracy: 0.6699, 
+2024-10-10 05:02:15,266 - INFO - Test ROC AUC: 0.9303, Precision: 1.0000, 
+2024-10-10 05:02:15,267 - INFO - Recall: 0.1112, F1: 0.2001
+2024-10-10 05:23:46,197 - INFO - Testing Results:
+2024-10-10 05:23:46,198 - INFO - Test Loss: 0.0694, Test Accuracy: 0.9829, 
+2024-10-10 05:23:46,199 - INFO - Test ROC AUC: 0.9975, Precision: 0.9878, 
+2024-10-10 05:23:46,201 - INFO - Recall: 0.9660, F1: 0.9768
