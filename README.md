@@ -25,7 +25,7 @@
 
 ---
 
-<h2 align="center">📂 Dataset Links 📂</h2>
+<h2 align="center">📂 Dataset Links for Kaggle Notebooks 📂</h2>
 
 <div align="center">
   <a href="https://www.kaggle.com/datasets/zphudzz/dath-pdz">Dataset 1: final_dataset_v1_afternb1.csv</a><br />
