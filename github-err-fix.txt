@@ -14,3 +14,8 @@ then do this: git push origin main
 
 git reset --soft HEAD~1
 git reset --mixed HEAD~1
+
+When new large files are added:
+git lfs track "*.safetensors"
+git add .gitattributes
+git commit -m "Track large model files with Git LFS"
