@@ -11,3 +11,6 @@ git fetch origin
 git merge origin/main 
 when above error, do this: git merge origin/main --allow-unrelated-histories 
 then do this: git push origin main 
+
+git reset --soft HEAD~1
+git reset --mixed HEAD~1
