@@ -1,0 +1,16 @@
+2024-10-17 01:55:53,821 - INFO - loading projection weights from /kaggle/input/pdz-dath-ds/output_w2v.txt
+2024-10-17 01:57:47,036 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (400000, 300) matrix of type float32 from /kaggle/input/pdz-dath-ds/output_w2v.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2024-10-17T01:57:47.036720', 'gensim': '4.3.3', 'python': '3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]', 'platform': 'Linux-5.15.154+-x86_64-with-glibc2.35', 'event': 'load_word2vec_format'}
+2024-10-17 03:36:31,465 - INFO - loading projection weights from /kaggle/input/pdz-dath-ds/output_w2v.txt
+2024-10-17 03:38:15,755 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (400000, 300) matrix of type float32 from /kaggle/input/pdz-dath-ds/output_w2v.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2024-10-17T03:38:15.755735', 'gensim': '4.3.3', 'python': '3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]', 'platform': 'Linux-5.15.154+-x86_64-with-glibc2.35', 'event': 'load_word2vec_format'}
+2024-10-17 03:48:47,979 - INFO - loading projection weights from /kaggle/input/pdz-dath-ds/output_w2v.txt
+2024-10-17 03:50:32,119 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (400000, 300) matrix of type float32 from /kaggle/input/pdz-dath-ds/output_w2v.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2024-10-17T03:50:32.119238', 'gensim': '4.3.3', 'python': '3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]', 'platform': 'Linux-5.15.154+-x86_64-with-glibc2.35', 'event': 'load_word2vec_format'}
+2024-10-17 03:54:49,161 - INFO - Testing Results:
+2024-10-17 03:54:49,162 - INFO - Test Accuracy: 0.9942, Test ROC AUC: 0.9993, 
+2024-10-17 03:54:49,163 - INFO - Precision: 0.9932, Recall: 0.9912, F1: 0.9922
+2024-10-17 03:54:49,185 - INFO - Finished processing (total) in 0 hours, 6 minutes, 6 seconds
+2024-10-17 04:09:30,994 - INFO - loading projection weights from /kaggle/input/pdz-dath-ds/output_w2v.txt
+2024-10-17 04:11:16,283 - INFO - KeyedVectors lifecycle event {'msg': 'loaded (400000, 300) matrix of type float32 from /kaggle/input/pdz-dath-ds/output_w2v.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2024-10-17T04:11:16.283460', 'gensim': '4.3.3', 'python': '3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]', 'platform': 'Linux-5.15.154+-x86_64-with-glibc2.35', 'event': 'load_word2vec_format'}
+2024-10-17 04:15:32,900 - INFO - Testing Results:
+2024-10-17 04:15:32,901 - INFO - Test Accuracy: 0.9942, Test ROC AUC: 0.9993, 
+2024-10-17 04:15:32,902 - INFO - Precision: 0.9932, Recall: 0.9912, F1: 0.9922
+2024-10-17 04:15:32,923 - INFO - Finished processing (total) in 0 hours, 6 minutes, 7 seconds
