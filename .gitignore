@@ -41,3 +41,4 @@ dist-ssr
 *.gz
 *.7z
 *.psd
+*.safetensors
