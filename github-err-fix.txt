@@ -19,3 +19,5 @@ When new large files are added:
 git lfs track "*.safetensors"
 git add .gitattributes
 git commit -m "Track large model files with Git LFS"
+
+Remove-Item -Recurse -Force .git
