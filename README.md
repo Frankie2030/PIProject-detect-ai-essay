@@ -44,6 +44,16 @@
 
 ---
 
+<h2 align="center">💾 Run File on Kaggle 💾</h2>
+
+<div align="center">
+  After download this repository, inside the Code/Self folder, select the notebook-run-kaggle-all.ipynb, then import it to Kaggle and uncomment the model that you want to train on kaggle by yourself.
+  <br /><br />
+<!--   <img src="Capture.PNG" alt="File Structure" style="width: 350px; height: auto;"> -->
+</div>
+
+---
+
 <h2 align="center">💟 Contributors 💟</h2>
 
 <div align="center">
